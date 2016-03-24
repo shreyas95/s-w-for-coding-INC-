@@ -1,0 +1,75 @@
+.instructions{
+	text-align: center;
+	font-size: 30px;
+}
+
+.btn-file {
+   position: relative;
+   overflow: hidden;
+}
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+    }
+
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+
+.start-btn {
+  position: relative;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #00e63a;
+  color: #ffffff;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  border-radius: 1em;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 5px rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.start-btn:hover {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-text {
+  text-align: left;
+}
+
+.navbar-logo {
+  float: left;
+  height: 35px;
+  position: fixed;
+  top: 1px;
+  left: 5px;
+}
+
+.cd-panel-container{
+	width: 70% !important; 
+}
+
+.cd-panel-header{
+	width: 70% !important;
+}
+
+.model-content{
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	-o-box-shadow: none !important;
+	box-shadow: none !important;
+}

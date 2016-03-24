@@ -1,0 +1,77 @@
+<html>
+<body>
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Pairwise AND sum </h4>
+      </div>
+      <div class="modal-body" id="modalid">
+You are given a sequence of N integer numbers A. Calculate the sum of Ai AND Aj for all the pairs (i, j) where i < j.<br>
+<br>
+The AND operation is the Bitwise AND operation, defined as in here.<br>
+Input<br>
+<br>
+The first line of input consists of the integer N.<br>
+<br>
+The second line contains N integer numbers - the sequence A.<br>
+Output<br>
+<br>
+Output the answer to the problem on the first line of the output.<br>
+Example<br>
+<br>
+Input:<br>
+5<br>
+1 2 3 4 5<br>
+<br>
+Output:<br>
+9<br>
+<br>
+Scoring<br>
+<br>
+Subtask 1 (13 points): N <= 1000, Ai <= 1.<br>
+<br>
+Subtask 2 (39 points): N <= 1000, Ai <= 109.<br>
+<br>
+Subtask 3 (21 points): N <= 105, Ai <= 1.<br>
+<br>
+Subtask 4 (27 points): N <= 105, Ai <= 106.<br>
+<br>
+      </div>
+      <div class="modal-footer">
+      <form method="post" action="" enctype="multipart/form-data">
+      <div class="section group">
+      <div class="col span_2_of_5">
+  			<div class="input-group">
+         	<span class="input-group-btn">
+            <span class="btn btn-primary btn-file">
+                 Browse&hellip; <input type="file">
+            </span>
+            </span>
+            <input type="text" class="form-control" readonly>
+          </div>
+        </div>
+        <div class="col span_1_of_5">
+        <div class="dropdown">
+  			<button class="btn btn-danger dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+    		Compiler
+    		<span class="caret"></span>
+  			</button>
+  			<ul class="dropdown-menu" role="menu">
+    		<li><a href="#">Gcc</a></li>
+    		<li class="divider"></li>
+    		<li><a href="#">G++</a></li>
+ 		 	</ul>
+			</div>
+			</div>
+		  <div class="col span_1_of_5">
+        <button type="button" class="btn btn-primary" data-dismiss="modal" data-toggle="modal" href="#myModal2" data-load-remote="result.html" data-remote-target="#myModal2 .modal-content">Submit</button>
+        </div>
+        <div class="col span_1_of_5">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+	</div>       
+       </form>
+      </div>
+    </div>
+</body>
+</html>

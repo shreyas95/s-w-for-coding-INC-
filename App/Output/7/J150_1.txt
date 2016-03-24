@@ -1,0 +1,22 @@
+
+How many no. you want to test=
+Enter no.=
+Ans is212215
+Enter no.=
+Ans is262720
+Enter no.=
+Ans is116240
+Enter no.=
+Ans is65365
+Enter no.=
+Ans is286890
+Enter no.=
+Ans is277395
+Enter no.=
+Ans is312245
+Enter no.=
+Ans is118330
+Enter no.=
+Ans is100355
+Enter no.=
+Ans is315835
